@@ -1,60 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>home</title>
-  <link rel="stylesheet" href="styles/style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles/style.css">
+<title>Home</title>
 </head>
-
 <body>
-  <header>
-    <div class="navBar">
-      <button>
-        <a href="index.html">Home</a>
-      </button>
-      <button>
-        <a href="about.html">MC Lands</a>
-      </button>
-      <button>
-        <a href="about.html">About</a>
-      </button>
-      <button>
-        <a href="about.html">Quabot</a>
-      </button>
-    </div>
-  </header>
 
-  <div class="section1">
-    <h2>What is Lorem Ipsum</h2>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-      of Lorem Ipsum.
-    </p>
+    <header>
+        <div class="navBar">
+            <span class="navButton1" style="font-size:30px;cursor:pointer" class="navButton" onclick="openNav()">&#9776; open</span>
+        </div>
+    </header>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="Login.html">Login</a>
+    <a href="#"></a>
+    <a href="About.html">About</a>
   </div>
 
-  <div class="section2">
-    <h2>What is Lorem Ipsum</h2>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-      of Lorem Ipsum.
-    </p>
+  <div id="main">
+    <h2 class="mainText">Home</h2>
+    <p class="mainText">The Home Page</p>
   </div>
-
-  <footer>
-    <div class="Footer">
-      <p>yo bitches</p>
-      <p>hi bitches</p>
-    </div>
-  </footer>
-
+   
 </body>
-
-</html>
+<script src="/scripts/script.js"></script>
+</html> 
