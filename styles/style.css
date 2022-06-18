@@ -89,3 +89,29 @@ body {
   top: 0;
   width: 99%;
 }
+
+.box {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+
+.formtext {
+  margin: 3px;
+}
+
+form {
+  background-color: #111;
+  width: 300px;
+  margin-left: 43%;
+  border-radius: 8%;
+  height: 193px;
+}
+
+.buttonSubmit {
+  height: 35px;
+  width: 80px;
+  margin: 3px;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+}
